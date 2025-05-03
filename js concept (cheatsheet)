@@ -153,3 +153,23 @@ console.log(a ?? "bha")  //  bha
 1. Garbage collection basics
 
 2. Memory leaks and how to avoid them
+
+
+Phase 3: JavaScript for Projects & Frameworks
+
+*** Module Systems
+1. CommonJS vs ESModules
+
+2. Dynamic import
+
+*** Tooling Basics
+
+1. Transpiling with Babel
+
+2. Bundling with Webpack, Vite (just the idea)
+
+*** Unit Testing in JS
+
+1. Jest basics
+
+2. Writing testable functions
