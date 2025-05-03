@@ -1,0 +1,95 @@
+I am facing one issue , that was like i didn't like to watch video, i just finding correct documentation which cover almost all topic which i want to know, this is the one of that reason i am creating this.
+
+(if you are referring  this docs please cross verify because its my understanding , may be something i understood wrong)
+Let's start
+
+🚀 Phase 1: Core JavaScript Foundation (Browser + Logic)
+
+Js is interpreted programming language with first class function.
+interpreted: execution of code happen line by line.
+first class function: treat function as variable
+
+before going forward lets understand this i am learning this because my target is do become a web developer , so my all context will you get based on that only.
+
+what is DOM?
+browser made a tree type structure of any website which contain the html attribute that is DOM, so js help us to change that attribute, so that why we can see the dynamic ness in our website.
+
+** Lets start the basic syntax:
+
+1. var, cost,let is used to define the variable.
+we didn't using var in industry.
+explore this example you will understand why we are not using var.
+
+console.log(a);
+var a=5;
+(here you learn the term hoisted)
+
+now think is that give you warning ?
+
+2. explore the primitive type and non-primitive type: focus on undefined ,null and Nan. (most of developer have confusion on this.)
+
+what will  be output ?
+console.log(Nan===Nan);
+
+3. also difference between == and === is simple. == this  only check value , === this will check value and type both 
+
+console.log(5=="5")   //true
+console.log(5==="5")   //false
+
+
+** Control Flow
+
+1. if, else, switch
+
+2. Loops: for, while, do-while, for...in, for...of  (here for...inn used for object and for...of used for like you want to get direct value like array.)
+
+*** Functions
+
+1. Function declarations vs expressions
+
+2. Arrow functions (real-world behavior): same as function ,just shorter syntax and behavior  with 'this' was different
+
+3. Callback functions: pass function as argument in other function and execute them later.
+
+4. First-class and higher-order functions: can assign function in variable is first class, if you pass functions and also returning a function is called higher-order function.
+
+
+***Objects & Arrays
+
+1. Object creation, access, destructuring 
+
+2. Array methods: map, filter, reduce, forEach, find, some, every, etc.
+
+3. Spread/rest operators  (always create shallow copy)
+
+4. Deep vs shallow copy
+
+
+*** Scope, Hoisting & Closures
+
+1. Scope chain (function, block)
+
+2. Lexical scope
+
+3. Hoisting (functions and variables)
+
+4. Closures (very important!)(way to deal with private variable without the class that is closers)
+[in simpler word your function can access the variable of outer lexical scope, its doesn't depend on when that function call happen]
+
+*** this, call, apply, bind
+
+1. this in different contexts (regular function, arrow function, method, event)
+
+2. Use cases for call, apply, bind. (way to use this in function, call object is not visible , in apply its visible , bind return new function)
+
+
+
+
+*** DOM Manipulation (Browser side)
+
+Selecting and modifying DOM elements
+
+Event handling
+
+Event bubbling and delegation :(bubbling means event go from child->ancestors by  e.stopPropagation() can prevent this , delegation is smart strategy to handle bubbling example add event in parent only and handle all event of child there.)
+
