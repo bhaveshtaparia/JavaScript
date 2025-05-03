@@ -93,3 +93,63 @@ Event handling
 
 Event bubbling and delegation :(bubbling means event go from child->ancestors by  e.stopPropagation() can prevent this , delegation is smart strategy to handle bubbling example add event in parent only and handle all event of child there.)
 
+
+🔥 Phase 2: Advanced JS for Real-World Apps
+
+****ES6+ Features
+
+1. Destructuring
+
+2. Template literals (example : `${name}`)
+
+3. Default parameters 
+
+4. Modules (import/export)
+
+5. Optional chaining ?.
+(example:
+let a={
+    "name":"b",
+    "c":"d",
+    "e":{
+        "f":"g"
+    }
+}
+
+console.log(a?.name?.sdf?.fgd) //will get undefined  
+
+)
+6. Nullish coalescing ??
+(example:
+let a;
+console.log(a ?? "bha")  //  bha
+)
+
+****Asynchronous JS
+
+1. Callbacks
+
+2. Promises
+
+3. async/await
+
+4. Error handling in async
+
+****Classes & Prototypes
+
+1. class syntax vs prototype inheritance (here function act as class using prototype)
+
+2. Constructor, super(), and method overrides
+
+3. Encapsulation using closures or #private fields
+
+
+****event Loop & Execution Context
+
+1. Execution Context, Call stack, Web APIs, task queue, microtask queue
+
+****Memory Management
+
+1. Garbage collection basics
+
+2. Memory leaks and how to avoid them
