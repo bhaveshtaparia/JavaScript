@@ -1,0 +1,106 @@
+***What is TypeScript and why use it?
+simply we can say , its provide type safety to the js 
+
+
+***Basic Types
+1. string, number, boolean, any, unknown, void, null, undefined, never
+
+2. object, array, tuple, enum, literal types
+
+3. Type inference vs type annotations (this only present in TS.)
+4. enum vs asConst
+
+
+***Functions
+1. Function type annotations
+
+1. Optional & default parameters
+
+3. Rest parameters
+
+4. Return type annotations
+
+5. void vs never
+
+***Advanced Types
+Union and Intersection types
+
+Type aliases
+
+Type narrowing (typeof, in, instanceof)
+
+Type guards
+
+Literal types
+
+Discriminated unions
+
+
+*** Interfaces & Type Aliases
+1. Defining interfaces
+
+2. Interface vs Type Alias – When to use what(with interface you cannot able to use union and intersection , and with type you cannot use extend)
+
+Extending interfaces
+
+3. Optional and readonly properties (age?:number --optional ,  readonly api: string )
+
+4. Function types with interfaces
+
+
+*** Classes with types
+
+Access modifiers (public, private, protected, readonly) [not js , only available in TS]
+
+Constructors and parameter properties
+
+Implements vs extends
+
+Abstract classes (only ts)
+
+Static properties/methods
+
+Getters and Setters
+
+
+***Generics (Very Important)
+1. Generic functions
+
+2. Generic classes
+
+3. Constraints (extends)
+
+4. Default types
+
+5. Using generics with arrays, Promises, etc.
+
+6. Generic utility types (Partial, Pick, Record, etc.)
+
+
+*** Module augmentation
+ 
+ 
+***Config and Compilation
+1. tsconfig.json options (strict, noImplicitAny, esModuleInterop, etc.)
+
+2. Source maps
+
+3. Path aliases (baseUrl, paths)
+
+4. Type checking vs transpilation
+
+****Advanced Patterns (Industry Grade)
+Mapped types
+
+Conditional types
+
+Template literal types
+
+Inference with infer
+
+Utility-first patterns
+
+Recursive types
+
+Advanced generics in libraries like React Query, Formik, etc.
+
